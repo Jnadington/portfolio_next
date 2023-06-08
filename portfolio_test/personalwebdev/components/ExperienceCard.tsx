@@ -15,7 +15,7 @@ export default function ExperienceCard({}: Props) {
               whileInView={{ opacity: 1, y: 0}}
               viewport={{ once: true }}
               className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
-              src="https://i.postimg.cc/yx3NVfv9/IMG-1585.jpg"
+              src="https://2u.com/static/ca12e19db2fddb4043175117c6d6d41b/3d896/2u-logo.png"
               alt="" />
 
         <div className="px-0 md:px-10">
@@ -29,21 +29,21 @@ export default function ExperienceCard({}: Props) {
                 />
                 <img 
                     className="h-10 w-10 rounded-full" 
-                    src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-1024.png"
+                    src="https://cdn-icons-png.flaticon.com/512/5968/5968342.png"
                     alt=""
                 />
                 <img 
                     className="h-10 w-10 rounded-full" 
-                    src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-1024.png"
+                    src="https://user-images.githubusercontent.com/13250741/64669187-33b55380-d47e-11e9-8bbf-c02a9d42f9a7.png"
                     alt=""
                 />
             </div>
-            <p className="uppercase py-5 text-gray-300">Started work... - Ended...</p>
+            <p className="uppercase py-5 text-gray-300">Started: Mar 2023 - Present</p>
             <ul className="list-disc  space-y-4 ml-5 text-lg overflow-y-scroll h-25">
-                <li>Summary Points  Summary Points Summary Points Summary Points Summary Po</li>
-                <li>Summary Points  Summary Points Summary Points Summary Points Summary Po</li>
-                <li>Summary Points  Summary Points Summary Points Summary Points Summary Po</li>
-                <li>Summary Points  Summary Points Summary Points Summary Points Summary Po</li>
+                <li>Assisted students as a teaching assistant in data bootcamps with a specialization in Data Analysis, Machine Learning, and FinTech</li>
+
+                <li>Delivered 24/7 support, answering queries related to assignments and relevant topics</li>
+                <li>One of the highest student ratings among starting recruits</li>
             </ul>
         </div>
 

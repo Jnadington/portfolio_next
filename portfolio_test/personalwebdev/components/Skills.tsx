@@ -1,6 +1,14 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 import Skill from '@/components/Skill'
+import SkillSolidity from './SkillSolidity'
+import SkillPython from './SkillPython'
+import SkillChatGPT from './SkillChatGPT'
+import SkillAWS from './SkillAWS'
+import SkillTensorflow from './SkillTensorflow'
+import SkillGit from './SkillGit'
+import SkillSQL from './SkillSQL'
+import SkillTableau from './SkillTableau'
 
 type Props = {}
 
@@ -16,18 +24,31 @@ function Skills({}: Props) {
             Skills
         </h3>
 
-        <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm ">Hover over a skill for currency proficiency
+        <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm ">Hover over a skill for current proficiency
         </h3>
 
         <div className="grid grid-cols-4 gap-5">
+
+            <SkillPython />
+            <SkillGit />
+            <SkillSQL />
+            <SkillAWS />
+            <SkillTensorflow />
+            <SkillChatGPT />
+            <SkillSolidity />
+            <SkillTableau />
+            <Skill />
+
+            {
+            // <Skill2 />
+            // <Skill3 /> 
+            /* <Skill />
             <Skill />
             <Skill />
             <Skill />
             <Skill />
             <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
+            <Skill /> */}
         </div>
     </motion.div>
   )
